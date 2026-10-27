@@ -8,4 +8,9 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
+
+    public function hello($name = null): string
+    {
+        return view('hello', ['name' => $name ?? 'World']);
+    }
 }

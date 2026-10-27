@@ -1,0 +1,11 @@
+{
+  "entity": "CustomerOrder",
+  "fields": [
+    { "name": "customerName", "type": "text", "required": true },
+    { "name": "itemName", "type": "text", "required": true },
+    { "name": "quantity", "type": "wholenumber", "required": true },
+    { "name": "totalPrice", "type": "decimal", "required": true },
+    { "name": "isPaid", "type": "yesno", "required": false },
+    { "name": "orderedAt", "type": "datetime", "required": true }
+  ]
+}
